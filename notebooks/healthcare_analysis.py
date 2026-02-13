@@ -10,9 +10,8 @@ import os
 
 sns.set(style="whitegrid")
 
-# ============================================
-# File Paths (FULL ABSOLUTE PATHS)
-# ============================================
+
+# File Paths
 
 BASE_PATH = "/Users/admin/Documents/Healthcare-Risk-Analysis"
 
@@ -20,7 +19,7 @@ RAW_DATA = BASE_PATH + "/data/raw/insurance.csv"
 CLEAN_DATA = BASE_PATH + "/data/processed/cleaned_insurance.csv"
 DASHBOARD_PATH = BASE_PATH + "/dashboard/"
 
-# Create dashboard folder if it doesn't exist
+# Create dashboard folder 
 os.makedirs(DASHBOARD_PATH, exist_ok=True)
 
 # ============================================
